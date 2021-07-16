@@ -234,6 +234,8 @@ html, body{
 }
 .section3{
 	padding-top: 200px;
+	opacity: 0;
+	transition: all .5s linear;
 }
 .section3__body{
 	display: flex;
@@ -265,6 +267,8 @@ html, body{
 
 .section4{
 	padding-top: 200px;
+	opacity: 0;
+	transition: all .5s linear;
 }
 
 .section4__body{
@@ -351,6 +355,8 @@ html, body{
 
 .section5{
 	padding-top: 200px;
+	opacity: 0;
+	transition: all .5s linear;
 }
 .section5__title p{
 	font-family: Roboto;
@@ -402,6 +408,8 @@ html, body{
 
 .section6{
 	padding-top: 200px;
+	opacity: 0;
+	transition: all .5s linear;
 }
 .section6__body{
 	display: flex;
@@ -460,6 +468,8 @@ html, body{
 
 .section7{
 	padding-top: 200px;
+	opacity: 0;
+	transition: all .5s linear;
 }
 .section7__body{
 	display: flex;
@@ -534,6 +544,8 @@ opacity: 0.5;
 
 .section8{
 	padding-top: 200px;
+	opacity: 0;
+	transition: all .5s linear;
 }
 .section8__body{
 	display: flex;
@@ -599,6 +611,8 @@ opacity: 0.5;
 
 .section9{
 	padding-top: 200px;
+	opacity: 0;
+	transition: all .5s linear;
 }
 .section9__body{
 	display: flex;
