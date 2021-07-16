@@ -19,7 +19,7 @@
 					<a href="#section1" class="header__logo">
 						<img src="img/Group.png" alt="">
 					</a>
-					<div class="header__burger">
+					<div class="header__burger" id="burger">
 						<span></span>
 					</div>
 					<nav class="header__menu">
@@ -376,6 +376,11 @@
 		$(document).ready(function() {
 			$('.header__burger').click(function(event) {
 				$('.header__burger,.header__menu').toggleClass('active');
+			});
+		});
+		$(document).ready(function() {
+			$('.header__link').click(function(event) {
+				$('.header__burger,.header__menu').removeClass('active');
 			});
 		});
 	</script>
