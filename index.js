@@ -12,8 +12,7 @@ window.addEventListener('scroll', scroller)
 function scroller(){
 	if(pageYOffset>50){
 		header.style.background="black"
-	}
-	else{
+	}else{
 		header.style.background="none"
 	}
 	if (pageYOffset>getOffsetSum(section3).top-200) {

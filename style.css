@@ -4,7 +4,9 @@
 	border: 0;
 	box-sizing: border-box;
 }
-
+a:hover{
+	cursor: pointer;
+}
 html, body{
 	height: 100%;
 	font-family: Roboto;
